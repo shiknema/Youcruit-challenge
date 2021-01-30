@@ -1,0 +1,198 @@
+{
+  "truckDrivers": [
+    {
+      "id": "832db305-9657-53c1-9810-f40635e71510",
+      "name": "Winifred Alexander",
+      "email": "winifred.alexander@example.com",
+      "drivingExperienceMonths": 24,
+      "hasValidDrivingLicense": true,
+      "numberOfMovingViolations": 2
+    },
+    {
+      "id": "9ec76685-d61e-5cb0-802d-1c2d22c15acc",
+      "name": "Emily Bowers",
+      "email": "emily.bowers@example.com",
+      "drivingExperienceMonths": 0,
+      "hasValidDrivingLicense": false,
+      "numberOfMovingViolations": 0
+    },
+    {
+      "id": "4f65fdb0-9794-512c-8cdd-9838d7ec0684",
+      "name": "Eva Washington",
+      "email": "eva.washington@example.com",
+      "drivingExperienceMonths": 12,
+      "hasValidDrivingLicense": true,
+      "numberOfMovingViolations": 0
+    },
+    {
+      "id": "f70214f5-4518-56f3-be94-2eadbfe4e1a3",
+      "name": "Marvin Fox",
+      "email": "marvin.fox@example.com",
+      "drivingExperienceMonths": 48,
+      "hasValidDrivingLicense": false,
+      "numberOfMovingViolations": 3
+    },
+    {
+      "id": "cc2805a1-7db0-5a92-a6be-821e1ac4b5a3",
+      "name": "Ella Cox",
+      "email": "ella.cox@example.com",
+      "drivingExperienceMonths": 0,
+      "hasValidDrivingLicense": true,
+      "numberOfMovingViolations": 1
+    }
+  ],
+  "jobs": [
+    {
+      "id": "33989a1d-83d2-5603-a926-f598c5420822",
+      "companyName": "D K TRANSPORT LLC",
+      "title": "Local Single Drop, Flatbed trailer",
+      "payPerWeek": 800,
+      "description": "Home at least 2 weekends. Single Drop, Flatbed trailer, Double Drop, Removable Gooseneck.",
+      "requirements": {
+        "minDrivingExperienceMonths": 12,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 2
+      }
+    },
+    {
+      "id": "43d508d3-2054-512e-8a17-145e275a8d88",
+      "companyName": "3T MANAGEMENT LLC",
+      "title": "Dedicated Local Dry Van",
+      "payPerWeek": 1200,
+      "description": "Home every weekend. Dry Van.",
+      "requirements": {
+        "minDrivingExperienceMonths": 6,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 0
+      }
+    },
+    {
+      "id": "a452b58f-6280-5d68-9550-0b09e28c24b2",
+      "companyName": "BAHRMAN TRUCKING",
+      "title": "Dedicated Local Dump trailer, Single Drop",
+      "payPerWeek": 1000,
+      "description": "Home every weekend. Dump trailer, Single Drop, Double Drop, Removable Gooseneck.",
+      "requirements": {
+        "minDrivingExperienceMonths": 24,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 1
+      }
+    },
+    {
+      "id": "f9d1894e-5550-5d7c-b152-f2036891e8f3",
+      "companyName": "THE MORNING STAR TRUCKING CO LLC",
+      "title": "Local Single Drop, Double Drop",
+      "payPerWeek": 1300,
+      "description": "Single Drop, Double Drop, Removable Gooseneck.",
+      "requirements": {
+        "minDrivingExperienceMonths": 24,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 0
+      }
+    },
+    {
+      "id": "a072eab1-fd28-580c-a162-b9270331b903",
+      "companyName": "M & M WASTE INC",
+      "title": "Local Dump trailer, Single Drop",
+      "payPerWeek": 1000,
+      "description": "Home at least 2 weekends. Dump trailer, Single Drop, Double Drop, Removable Gooseneck.",
+      "requirements": {
+        "minDrivingExperienceMonths": 6,
+        "requireValidDrivingLicense": false,
+        "maxNumberOfMovingViolations": 5
+      }
+    },
+    {
+      "id": "4913dda2-b4f2-5aba-9239-f304178800bb",
+      "companyName": "M & M WASTE INC",
+      "title": "Local Dump trailer, Single Drop",
+      "payPerWeek": 1200,
+      "description": "Home at least 2 weekends. Dump trailer, Single Drop, Double Drop, Removable Gooseneck.",
+      "requirements": {
+        "minDrivingExperienceMonths": 0,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 0
+      }
+    },
+    {
+      "id": "fcc1cc0f-707b-5796-8b66-d3e598a3d225",
+      "companyName": "HWC LOGISTICS INC",
+      "title": "Local Dry Van, Flatbed trailer",
+      "payPerWeek": 700,
+      "description": "Home every weekend. Dry Van, Flatbed trailer.",
+      "requirements": {
+        "minDrivingExperienceMonths": 36,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 5
+      }
+    },
+    {
+      "id": "9cf23555-42b8-51a7-a1f8-f904a83f0455",
+      "companyName": "US ENVIRONMENTAL INC",
+      "title": "Local Tanker trailer, Dry Van",
+      "payPerWeek": 1100,
+      "description": "Home at least 3 weekends. Tanker trailer, Dry Van, Flatbed trailer.",
+      "requirements": {
+        "minDrivingExperienceMonths": 6,
+        "requireValidDrivingLicense": false,
+        "maxNumberOfMovingViolations": 0
+      }
+    },
+    {
+      "id": "9db320b2-f75f-58b1-9ead-3b40012af7eb",
+      "companyName": "WILLAMETTE GRAYSTONE LLC",
+      "title": "Local Dump trailer, Tanker trailer",
+      "payPerWeek": 1000,
+      "description": "Dump trailer, Tanker trailer, Dry Van, Flatbed trailer.",
+      "requirements": {
+        "minDrivingExperienceMonths": 0,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 2
+      }
+    },
+    {
+      "id": "ef810b92-af1a-5074-b324-8bf7acab922a",
+      "companyName": "SWS ENTERPRISE INC",
+      "title": "Dedicated Local Dry Van",
+      "payPerWeek": 1400,
+      "description": "Home at least 2 weekends. Dry Van.",
+      "requirements": {
+        "minDrivingExperienceMonths": 6,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 0
+      }
+    },
+    {
+      "id": "469ca691-c406-591a-909b-f8ba98d1df4f",
+      "companyName": "BUILDING SUPPLY ASSOCIATION US LBM LLC",
+      "title": "Local Flatbed trailer",
+      "payPerWeek": 680,
+      "description": "Home every weekend. Flatbed trailer.",
+      "requirements": {
+        "minDrivingExperienceMonths": 0,
+        "requireValidDrivingLicense": false,
+        "maxNumberOfMovingViolations": 10
+      }
+    },
+    {
+      "id": "b5f53f85-e300-5ac0-a714-abf5452d2799",
+      "companyName": "UNFI",
+      "title": "Dedicated Local Refrigerated",
+      "payPerWeek": 890,
+      "description": "Refrigerated.",
+      "requirements": {
+        "minDrivingExperienceMonths": 18,
+        "requireValidDrivingLicense": true,
+        "maxNumberOfMovingViolations": 2
+      }
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "truckDriverId": "4f65fdb0-9794-512c-8cdd-9838d7ec0684",
+      "jobId": "a072eab1-fd28-580c-a162-b9270331b903",
+      "applicationTimestamp": 1610277983000
+    }
+  ]
+}

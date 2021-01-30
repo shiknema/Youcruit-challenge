@@ -1,0 +1,42 @@
+.card{
+    border-radius: 15%;
+    background: #051258b0;
+    color: #fff;
+    margin-left:2%;
+    height:300px;
+    width:320px;
+    margin-top:5%;
+    padding: 30px;
+    padding-top: 50px;
+  }
+  
+  .card:hover { transform: scale(1.1) }
+
+  
+a {
+  color: rgb(23, 13, 77);
+  text-decoration: underline;
+  
+ }
+
+ a:hover{
+   color: #fff;
+ }
+  .card-text{
+    color: rgb(166, 226, 236);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align:left ;
+
+  }
+  
+  .topTemp{
+    margin-top: 25px;
+    font-size:26px;
+    color:rgb(248, 241, 241);
+    font-weight: bold;
+    text-align: center;
+  }
+  .row{
+    text-align: center;
+  }
