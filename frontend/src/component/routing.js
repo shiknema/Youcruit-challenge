@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Link} from 'react-router-dom';
 
 import TruckDrivers from './truckdriver';
 import Home from './home';
-//import productDetails from './productDetails';
+import JobDetails from './jobdetails';
 
 
 class Routing extends Component{ //class component for Routing
@@ -25,6 +25,7 @@ class Routing extends Component{ //class component for Routing
                         <ul className="nav navbar-nav">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/truckdriver">TruckDrivers</Link></li>
+                            <li><Link to="/jobdetails">Job Details</Link></li>
                         </ul>
                         </div>
                     </div>
@@ -32,7 +33,7 @@ class Routing extends Component{ //class component for Routing
                 <div>
                     <Route exact path="/" component={Home}></Route>
                     <Route exact path="/truckdriver" component={TruckDrivers}></Route>
-                    {/**<Route exact path="/product/:productId" component={productDetails}/>*/}
+                <Route exact path="/jobdetails" component={JobDetails}/>
                  
                 </div>
             </BrowserRouter>

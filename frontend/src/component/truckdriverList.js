@@ -9,10 +9,11 @@ const DriverList = (driverlist) => { //functional component
 
         if (driverlist) { //if the function argument has data , display it
             return driverlist.map((data) => {  //map(), calls this code once for each record inside the driverlist array
-                return ( //generate a dynamic route for individual product image the user clicks on (eg: /product/2)
+                return ( //generate a dynamic route for individual product image the user clicks on 
 
-                    <Link key={data.id} to={`/truckdriver/${data.id}`} >
-                        <div className="card col-md-12">
+      
+                   <Link key={data.id} to={`/truckdriver/${data.id}`} >
+                    <div className="card col-md-12">
                             <div className="row">
                                 <span className="topTemp">  {data.name}</span>
                             </div>
@@ -28,6 +29,7 @@ const DriverList = (driverlist) => { //functional component
                         </div>
 
                     </Link>
+                  
                 )
             })
         }
