@@ -3,12 +3,12 @@ import './home.css';
 import { Link } from 'react-router-dom';
 
 
-const DriverList = (prodlist) => { //functional component
+const DriverList = (driverlist) => { //functional component
 
-    const renderList = ({ prodlist }) => { //accepts the products data passed tpo this component by products.js //Custom function
+    const renderList = ({ driverlist }) => { //accepts the driver data passed to this component by driver.js //Custom function
 
-        if (prodlist) { //if the function argument has data , display it
-            return prodlist.map((data) => {  //map(), calls this code once for each record inside the prodlist array
+        if (driverlist) { //if the function argument has data , display it
+            return driverlist.map((data) => {  //map(), calls this code once for each record inside the driverlist array
                 return ( //generate a dynamic route for individual product image the user clicks on (eg: /product/2)
 
                     <Link key={data.id} to={`/truckdriver/${data.id}`} >
@@ -35,7 +35,7 @@ const DriverList = (prodlist) => { //functional component
     return ( //calls the custom rendeRList() method above to render the view
         <div className="container">
             <div className="row">
-                {renderList(prodlist)}  {/* Passes the accepted products data to the renderList function for displaying it */}
+                {renderList(driverlist)}  {/* Passes the accepted driver data to the renderList function for displaying it */}
             </div>
         </div>
     )
