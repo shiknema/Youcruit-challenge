@@ -1,7 +1,7 @@
 import fetchMock from 'fetch-mock';
 //import axiosAPI from './component/compnents/axiosAPI';
 //import TruckDriversList from "./compnents/truckDriversList";
-import drivers from '../component/drivers.js'
+import drivers from '../component/Drivers.js'
 
 //import axios from 'axios';
 

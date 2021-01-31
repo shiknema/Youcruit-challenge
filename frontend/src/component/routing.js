@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 //import all componets with paths
 import Home from './home';
-import Drivers from './drivers';
+import Drivers from './Drivers';
 import JobDetails from './Jobs/jobdetails';
-import TruckDriversList from "./compnents/truckDriversList";
+import TruckDriversList from "./compnents/TruckDriversList";
 
 class Routing extends Component { //class component for Routing
     render() {
