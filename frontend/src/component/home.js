@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import './home.css';
+import BackgroundImage from './lanefinder-youcruit.jpg';
+
 
 class Home extends Component { //class component
     constructor(){ //initialized the component
@@ -13,8 +16,9 @@ class Home extends Component { //class component
             <div className="panel-group">
                 <div className="panel panel-primary">
                     <div className="panel-heading">Welcome to Truck Driver Job Portal</div>
-                    <div className="panel-body">Home Content</div>
-                    <h2>{this.state.title}</h2>
+                     
+                     <img src={BackgroundImage} responsive />
+                   
                 </div>
                 
             </div>

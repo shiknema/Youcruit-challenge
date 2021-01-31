@@ -26,7 +26,7 @@ async componentDidMount() {
 
   
 
-showForm = () => {
+const showForm = () => {
    return (
      <div> 
     <form id= "add-app">

@@ -40,3 +40,9 @@ a {
   .row{
     text-align: center;
   }
+
+  img{
+    padding-top: 24px;
+    padding-left:135px;
+    padding-bottom: 24px;
+  }

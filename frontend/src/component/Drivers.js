@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import TruckDriverList from './truckdriverList'; 
+import TruckDriverList from './DriverList'; 
 
-class TruckDriver extends Component { //class component
+class Drivers extends Component { //class component
     constructor(){ 
         super()
         this.state ={  
@@ -21,7 +21,7 @@ class TruckDriver extends Component { //class component
           this.setState({ isError: true, isLoading: false })// retun Error
         }
       }
-    render(){ //display this component in the view
+    render(){ 
         console.log(this.state.truckDrivers); //print driver on the console of the browser
         return( //display title and inject driverList component here by passing the driver data to it
             <div>
@@ -34,4 +34,4 @@ class TruckDriver extends Component { //class component
     }
 }
 
-export default TruckDriver;
+export default Drivers;
