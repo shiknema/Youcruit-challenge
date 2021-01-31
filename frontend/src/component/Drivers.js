@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TruckDriverList from './DriverList';
+import TruckDriverList from './driverList';
 
 class Drivers extends Component { //class component
     constructor() {
