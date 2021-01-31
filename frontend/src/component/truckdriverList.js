@@ -7,9 +7,9 @@ const DriverList = (driverlist) => { //functional component
 
     const renderList = ({ driverlist }) => { //accepts the driver data passed to this component by driver.js //Custom function
 
-        if (driverlist) { //if the function argument has data , display it
+        if (driverlist) {
             return driverlist.map((data) => {  //map(), calls this code once for each record inside the driverlist array
-                return ( //generate a dynamic route for individual product image the user clicks on 
+                return ( 
 
       
                    <Link key={data.id} to={`/truckdriver/${data.id}`} >
