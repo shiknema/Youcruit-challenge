@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './home';
 import Drivers from './drivers';
 import JobDetails from './Jobs/jobdetails';
-import TruckDriversList from "./compnents/TruckDriversList";
+import TruckDriversList from "./compnents/truckDriversList";
 
 class Routing extends Component { //class component for Routing
     render() {

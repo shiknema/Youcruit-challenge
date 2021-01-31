@@ -7,8 +7,7 @@ class Home extends Component { //class component
     constructor(){ //initialized the component
         super()
         this.state ={ //state 
-            title: 'Lanefinder Truck Driver', //props defined
-        
+            title: 'Lanefinder Truck Driver', //props defined      
         }
     }
     render(){

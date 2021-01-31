@@ -64,7 +64,6 @@ class JobDetails extends Component {
               <th>Company Name</th>
               <th>Description</th>
               <th>Pay Per Week</th>
-              <th> Apply</th>
             </tr>
           </thead>
           <tbody>
@@ -87,8 +86,6 @@ class JobDetails extends Component {
           <td>{job.companyName}</td>
           <td>{job.description}</td>
           <td>{job.payPerWeek}</td>
-          <td><button onClick={() => this.setState({ showForm: true })} >
-            Apply</button></td>
         </tr>
       )
     })
