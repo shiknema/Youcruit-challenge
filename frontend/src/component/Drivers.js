@@ -1,34 +1,34 @@
-import React, {Component} from 'react';
-import TruckDriverList from './DriverList'; 
+import React, { Component } from 'react';
+import TruckDriverList from './DriverList';
 
 class Drivers extends Component { //class component
-    constructor(){ 
+    constructor() {
         super()
-        this.state ={  
-            title: 'Truck Drivers', 
+        this.state = {           //state and insalize Props
+            title: 'Truck Drivers',
             truckdriver: ''
         }
     }
-   
 
     async componentDidMount() { //lifecycle event hook using async function for making a get request. Called automatically once this component is mounted on the view
-        this.setState({ isLoading: true }) 
+        this.setState({ isLoading: true })
         const response = await fetch('http://localhost:6700/truckdrivers') //fetch calls the json-server REST API, hosted db.json file
         if (response.ok) { // if response recived 
-          const truckDrivers = await response.json()
-          this.setState({ truckDrivers, isLoading: false }) //rteurn data
-        } else {                                            
-          this.setState({ isError: true, isLoading: false })// retun Error
+            const truckDrivers = await response.json()
+            this.setState({ truckDrivers, isLoading: false })
+        } else {
+            this.setState({ isError: true, isLoading: false })
         }
-      }
-    render(){ 
+    }
+
+    render() {
         console.log(this.state.truckDrivers); //print driver on the console of the browser
-        return( //display title and inject driverList component here by passing the driver data to it
+        return ( 
             <div>
                 <center>
                     <h2>{this.state.title}</h2>
                 </center>
-                <TruckDriverList driverlist={this.state.truckDrivers}/>
+                <TruckDriverList driverlist={this.state.truckDrivers} /> {/*storing driver data and storing in DriverList */}
             </div>
         )
     }

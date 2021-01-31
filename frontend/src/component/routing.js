@@ -5,9 +5,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './home';
 import Drivers from './Drivers';
 import JobDetails from './Jobs/jobdetails';
-import TruckDrivers from "./compnents/TruckDrivers";
 import TruckDriversList from "./compnents/TruckDriversList";
-
 
 class Routing extends Component { //class component for Routing
     render() {
@@ -39,13 +37,11 @@ class Routing extends Component { //class component for Routing
                     <Route exact path="/driver" component={Drivers}></Route>
                     <Route exact path="/jobdetails" component={JobDetails} />
                     <Route exact path={"/truckDriversList"} component={TruckDriversList} />
-                    <Route path="/truckDrivers/:id" component={TruckDrivers} />
 
                 </div>
             </BrowserRouter>
         )
     }
 }
-
 
 export default Routing;
