@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 //import all componets with paths
 import Home from './home';
-import Drivers from './Drivers';
+import Drivers from './drivers';
 import JobDetails from './Jobs/jobdetails';
-import TruckDriversList from "./compnents/TruckDriversList";
+import TruckDriversList from "./compnents/truckDriversList";
 
 class Routing extends Component { //class component for Routing
     render() {
@@ -25,9 +25,10 @@ class Routing extends Component { //class component for Routing
                         <div className="collapse navbar-collapse" id="myNavbar">{/** Links for Navigation */}
                             <ul className="nav navbar-nav">
                                 <li><Link to="/">Home</Link></li>
+                                <li><Link to="/truckDriversList"> Job Portal </Link></li>
                                 <li><Link to="/driver">All TruckDrivers</Link></li>
                                 <li><Link to="/jobdetails">Job Details</Link></li>
-                                <li><Link to="/truckDriversList"> DriversList </Link></li>
+                               
                             </ul>
                         </div>
                     </div>

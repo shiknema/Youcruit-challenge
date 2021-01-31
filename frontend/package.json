@@ -8,6 +8,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "fetch-mock": "^9.11.0",
     "json-server": "^0.16.3",
     "react": "^16.9.0",
     "react-bootstrap": "^1.4.3",
@@ -36,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react-test-renderer": "^17.0.1"
   }
 }

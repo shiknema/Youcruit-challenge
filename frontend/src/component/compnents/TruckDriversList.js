@@ -41,11 +41,12 @@ const DriversList = () => {       // Function Component & set states
         >= Driver.numberOfMovingViolations));
     console.log(currentDriverJobs);
   };
+  
 
   return (
     <div className="list row">
       <div className="col-md-6">
-        <h4>Drivers List</h4>
+      <h4><strong>Drivers List</strong></h4>
         <ul className="list-group">
           {
            Drivers &&                    //Compare setect driver data with mapped driver data 
@@ -68,14 +69,14 @@ const DriversList = () => {       // Function Component & set states
       <div className="col-md-6">
         {currentDriver && currentDriverJobs ? (   //Compare currentDriver data with currentDriverJaob
           <div>
-            <h4>Matched Jobs</h4>
+            <h4> <strong>Matched Jobs</strong></h4>
             <Table striped bordered hover variant="dark"> {/**Design table */}
               <thead>
                 <tr>
                   <th>Title</th>
-                  <th>Job Description</th>
                   <th>Company</th>
                   <th>PayPerWeek</th>
+                  <th>Status</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -83,11 +84,11 @@ const DriversList = () => {       // Function Component & set states
                 {currentDriverJobs.map((job) => (  //mapping all job json data
                   <tr>
                     <th>{job.title}</th>
-                    <th>{job.description}</th>
                     <th>{job.companyName}</th>
                     <th>{job.payPerWeek}</th>
+                    <th>Not Applied</th>
                     <th>
-                      <button>Apply</button>
+                      <button>Job Details</button>
                     </th>
                   </tr>
                 ))}
